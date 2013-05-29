@@ -1,0 +1,2 @@
+javac -classpath .;logback-classic-1.0.10.jar;logback-core-1.0.10.jar;opencv-245.jar;slf4j-api-1.7.3.jar Test.java 
+java -classpath .;logback-classic-1.0.10.jar;logback-core-1.0.10.jar;opencv-245.jar;slf4j-api-1.7.3.jar Test

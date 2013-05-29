@@ -1,0 +1,12 @@
+<configuration>
+	<appender name="log" class="ch.qos.logback.core.FileAppender">
+		<file>sequences.txt</file>
+		<encoder>
+			<pattern>%msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<root>
+		<appender-ref ref="log" />
+	</root>
+</configuration>
